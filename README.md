@@ -33,4 +33,5 @@ Content of /etc/auto_smb
 The repo contains various rsync scripts used in the NAS setup.
 
 - `backup_mbp.sh`: the rsync used to backup my Macbook Pro
-
+- `backup_nas_primary.sh`: the rsync script that backups the primary NAS to the secondary NAS drive
+	- don’t forget to `chmod +x backup_nas_primary.sh` before adding it to `crontab -e`
